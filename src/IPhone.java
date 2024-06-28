@@ -40,8 +40,8 @@ public class IPhone implements ReprodutorMusicalIntfc, AparelhoTelefonicoIntfc, 
   }
 
   @Override
-  public void adicionarNovaAba() {
-    System.out.println("Adicionando Pagina.");
+  public void adicionarNovaAba(String pagina) {
+    System.out.println(pagina + " adicionada.");
   }
 
   @Override

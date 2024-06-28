@@ -4,7 +4,7 @@ public interface NavegadorInternetIntfc {
 
     void exibirPagina();
 
-    void adicionarNovaAba();
+    void adicionarNovaAba(String pagina);
   
     void atualizarPagina();
 }

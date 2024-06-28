@@ -13,7 +13,7 @@ public class Main {
     
         novoIPhone.exibirPagina();
         novoIPhone.atualizarPagina();
-        novoIPhone.adicionarNovaAba();
+        novoIPhone.adicionarNovaAba("Pagina 2");
       }
     }
   
