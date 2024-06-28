@@ -8,7 +8,7 @@ Com base no vídeo de lançamento do iPhone conforme link abaixo, em uma ferrame
 
 ##
 
-<h3 align=center>Exemplo do Diagrama UML (Mermaid)</h3>
+<h3 align=center>Diagrama UML (Mermaid)</h3>
 
 ```mermaid
 classDiagram
@@ -20,18 +20,18 @@ classDiagram
     
       +tocar()void
       +pausar()void
-      +selecionarMusica()void
+      +selecionarMusica(String nome)void
     }
     class AparelhoTelefonico{
 
-      +ligar()void
+      +ligar(int numero)void
       +atender()void
       +iniciarCorreioVoz()void
     }
     class NavegadorInternet{
       
       +exibirPagina()void
-      +adicionarNovaAba()void
+      +adicionarNovaAba(String pagina)void
       +atualizarPagina()void
     }
 ```
