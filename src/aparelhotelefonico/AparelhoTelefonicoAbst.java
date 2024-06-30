@@ -1,6 +1,6 @@
 package aparelhotelefonico;
 
-public class AparelhoTelefonicoAbst implements AparelhoTelefonicoIntfc {
+public abstract class AparelhoTelefonicoAbst implements AparelhoTelefonicoIntfc {
     
       @Override
       public void ligar(int numero) {
